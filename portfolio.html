@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Portfolio</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+
+  
+    <!-- top navbar -->    
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-left"">
+        
+        <!-- sidebar -->
+        <div class="col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <div class="navbar-header text-center">
+               <a class="navbar-brand" href="#">
+                    <form class="form-inline" role="image"> 
+                        <div class="form-group" id="logo">
+                            <img class="img-responsive img-circle" src="images/logo1.jpg"/>
+                            <h5>Chad Engle</h5>
+                        </div>              
+                    </form>
+                </a>
+            </div>
+            <ul class="nav text-left">
+                <li class="active"><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i>
+                    <span>DASHBOARD</span></a></li>
+                <li><a href="#"><i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                    <span>SCHEDULES</span></a></li> 
+                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>MESSAGES</span></a></li> 
+                <li><a href="#"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <span>JOBS</span><span class="badge">2</span></a></li>
+                <li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <span>STATISTICS</span></a></li>
+                <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>
+                    <span>SETTINGS</span></a></li>               
+            </ul>
+        </div>
+    
+        <!-- main area -->
+        <div class="col-sm-9" id="mainside">
+                <!--start menu top side-->            
+                <div class="row top">
+                    <div class="col-sm-1">
+                        <div class="navbar">
+                           <div class="container">
+                               <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                               </button>  
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <p>Hi,Chad ! How is your thesis going?</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <form action="" class="search-form">
+                                    <div class="form-group has-feedback">
+                                        <label for="search" class="sr-only">Search</label>
+                                        <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-4">
+                                <i class="fa fa-bell-o fa-x " aria-hidden="true"></i>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>              
+                <!--end menu top side-->
+
+                <div class="middleside">
+                    <!-- Start image silder -->
+                    <section id="slider">
+                        <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#screenshot-carousel" data-slide-to="1" ></li>
+                                <li data-target="#screenshot-carousel" data-slide-to="2" ></li>
+                            </ol>
+                            <div class="carousel-inner" id="image-slider">
+                                <div class="item active">
+                                    <img src="images/slider1.jpeg" alt="Text of the image"/>                                
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpeg" alt="Text of the image"/>                                
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider1.jpeg" alt="Text of the image"/>                                
+                                </div>
+                            </div><!-- End Carousel inner -->                   
+                        </div>  
+                    </section>
+                    <!-- End image silder -->
+                    <section id="activities">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="row" id="financial">
+                                    <section>
+                                        <li><span>Finance activity</span></li>
+                                        <p class="month pull-center">
+                                            <span>Month
+                                                <i class="caret"></i>
+                                            </span>
+                                            <i class="fa fa-ellipsis-v "></i>
+                                        </p> 
+                                    </section>
+                                    <div class="row circle text-center" >
+                                        <div class="col-sm-4">              
+                                            <div class="circle1">
+                                                <p class="text-center">EXPENCE</p>
+                                                <p class="text-center">$1300</p>
+                                            </div>
+                                            <p class="detail text-center">DETAIL</p>            
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle1 circle2">
+                                                <p class="text-center">INCOME</p>
+                                                <p class="text-center">$2900</p>
+                                            </div>  
+                                            <p class="detail text-center">DETAIL</p>    
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle1 circle3">
+                                                <p class="text-center">TRANSFER</p>
+                                                <p class="text-center">$300</p>
+                                            </div>
+                                            <p class="detail text-center">DETAIL</p>        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row team-schedule">
+                                    <div class="col-sm-6" id="team">
+                                        <section>
+                                            <li><span>Team</span></li>
+                                            <i class="fa fa-ellipsis-v pull-right" 
+                                                aria-hidden="true">
+                                            </i>
+                                        </section>
+                                        <div class="team-member">
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <img src="images/member.jpg" class="img-circle">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                    <p class="text-left">Zuki Andi</p>
+                                                    <p class="text-left">
+                                                        <small>UX Desiginer</small>
+                                                    </p>
+                                                </div>
+                                            </div></br>
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <img src="images/member.jpg" class="img-circle">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                    <p class="text-left">Nagato Miyamoot</p>
+                                                    <p class="text-left">
+                                                        <small>Web Desiginer</small>
+                                                    </p>
+                                                </div>
+                                            </div></br>
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <img src="images/member.jpg" class="img-circle">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                    <p class="text-left">Jamil Kadonggo</p>
+                                                    <p class="text-left">
+                                                        <small>2D Artist</small>
+                                                    </p>
+                                                </div>
+                                            </div></br>
+                                            <div class="row">
+                                                <div class="col-sm-5">
+                                                    <img src="images/member.jpg" class="img-circle">
+                                                </div>
+                                                <div class="col-sm-7">
+                                                    <p class="text-left">Asyraf Zaki Aziz</p>
+                                                    <p class="text-left">
+                                                        <small>Project Manager</small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="teammate text-center">+ Add Teammate</p>
+                                    </div>
+                                    <div class="col-sm-5" id="schedule">
+                                        <section>
+                                            <li><span>Schedule</span></li>
+                                            <i class="fa fa-ellipsis-v pull-right" 
+                                                aria-hidden="true">
+                                            </i>
+                                        </section>
+                                        <small class="angle"><i class="fa fa-angle-left"></i> 
+                                            <span>TODAY</span>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6" id="chat">
+                                <section>
+                                    <li><span>Chats</span></li>
+                                    <i class="fa fa-ellipsis-v pull-right" 
+                                        aria-hidden="true">
+                                    </i>
+                                </section>
+                                <small class="angle"><i class="fa fa-angle-left" aria-hidden="true">
+                                    </i><span>MEMED NURROHMAD</span>
+                                </small>
+                                <div id="chatbox">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <img class="img-circle" src="images/member.jpg">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p class="chat1 text-left">Lorem ipsum dolor sit amet,
+                                                </br> consectatur adipisicing elit,</br> sed do eiusmod?</br>19:30
+                                            </p>    
+                                        </div>
+                                    </div></br>
+                                    <div class="text-left">
+                                        <p class="chat2">Lorem ipsum dolor sit amet,</br>do eiusmod?</br>19:30 seen</p>
+                                    </div></br>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <img class="img-circle" src="images/member.jpg">
+                                        </div>
+                                        <div class="col-sm-9">
+                                            <p class="chat1 text-left">Okey masbroh</br>19:30</p>   
+                                        </div>
+                                    </div></br>
+                                    <div class="text-left">
+                                        <p class="chat2">Mantab pakcek!!!!D</br>19:30 seen</p>
+                                    </div>
+                                </div>
+                                <div id="add-text">
+                                    <input type="text" class="name"/>
+                                    <i type="button" class="fa fa-paper-plane"></i>
+                                </div>
+                                
+                            
+                            </div>
+                         </div>
+                    </section>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+
+
+
+    
+    
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,444 @@
+body{
+  font-family:Arial,'Lucida Sans Unicode';
+  line-height:1.5;
+}
+
+#logo h5{
+	padding-top: 20%;
+}
+
+#sidebar {
+  height: 100%;
+  padding-right: 0;
+  padding-top: 20px;
+  background-color:#f4f3f3; 
+}
+#sidebar .nav {
+  width: 95%;
+  padding-top: 80%;
+}
+.nav li {
+  color:#a0a0a0;
+}
+
+.nav li a:hover {
+  background-color:#d1a6df; 
+}
+
+.nav li i{
+	color:#a0a0a0;
+}
+
+.top .navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.nav li span{
+	padding-left: 10%;
+}
+
+.nav  li a .badge{
+	margin-left: 40%;
+	color: #000;
+	background-color:#fa7d7d; 
+}
+
+#mainside{
+	background-color:#422f42;
+}
+
+.top{
+	background-color:#5a3a5d; 
+	width: 104.5%;
+}
+.top p{
+	color:#fff;
+	margin-left: 12%;
+	padding-top: 8%;
+}
+
+.fa-bell-o{
+	color:#fff;
+	
+	padding-top: 30%;
+}
+
+.search-form{
+	padding-top: 8%;
+}
+
+
+.search-form .glyphicon{
+	color:#fff;
+	
+}
+
+.search-form .form-group {
+  transition: all 0.35s;
+  width: 32px;
+  height: 32px;
+  margin-left: 50%;
+}
+
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border-radius: 25px;
+  background: transparent;
+}
+
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 60%;
+  border-radius: 25px;
+}
+
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+#image-slider img{
+	height:500px;
+	width:100%;
+	
+}
+
+#slider{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+#activities{
+	margin: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#financial{
+	background: #6d5470;
+  width: 106%;
+  padding-top: 5%;
+}
+
+#financial li{
+  padding-left: 13%;
+  color:#89e767;
+  font-size: 15px;
+}
+#financial li span{
+  color:#fff;
+  font-size: 12px;
+}
+
+.month{
+  color:#fff;
+  margin-left: -15px;
+}
+
+.month span{
+  font-size: 12px;
+}
+
+.circle{
+  margin-top: 5%;
+ 
+}
+
+.detail{
+   margin-top: 110%;
+   color: #fff;
+   font-size: 12px;
+   position: relative;
+}
+
+.circle1{
+  height:80px;
+  width:80px;
+  border-radius:50px;
+  float:left;
+  color:#f5f3f5;
+  background-color:transparent;
+  border: 4px solid #00b4ff;  
+}
+
+.circle1 p{
+  padding-top: 15%;
+  font-size: 10px;
+}
+
+.circle2{
+  border: 4px solid #ffc231;  
+}
+
+.circle3{
+  border: 4px solid #ff518c;
+}
+
+.team-schedule{
+  margin-top: 4%;
+  width: 106%;
+}
+
+#team{
+  background-color:#6d5470; 
+  width: 55%;
+  font-size: 15px;
+  color: #fe85ae;
+  padding-top: 5%;
+}
+
+#team li{
+  padding-left: 5%;
+  color:#fefefe;
+  font-size: 15px;
+}
+
+#team li span{
+  color:#fff;
+  font-size: 12px;
+}
+
+#team .fa-ellipsis-v{
+  color:#fff;
+}
+
+.team-member{
+  color:#fff;
+  margin-top: 10%;
+}
+
+.team-member p{
+  font-size: 10.3px;
+}
+
+.team-member small{
+  font-size: 8px;
+  color:#aca1ae;
+}
+
+.teammate{
+  margin-top: 20%;
+  color: #fff;
+  font-size: 13px;
+}
+
+#schedule{
+  background-color:#6d5470; 
+  margin-left: 3.2%;
+  padding-top: 5%;
+}
+
+#schedule li{
+  padding-left: 5%; 
+  color: #68eeac;
+  font-size: 15px;
+}
+
+#schedule li span{
+  color:#fff;
+  font-size: 12px;
+}
+
+#schedule .fa-ellipsis-v{
+  color:#fff;
+}
+
+#schedule .angle{
+  margin-left: 20px;
+  font-size: 7px;
+  color:#fff;
+}
+
+#schedule .angle span{
+  margin-left: 10px;
+}
+
+#chat{
+  background-color:#6d5470; 
+  font-size: 15px;
+  padding-top: 2%;
+}
+
+#chat li{
+  padding-left: 5%;
+  color: #6fcae7;
+  font-size: 15px;
+}
+
+#chat li span{
+  color:#fff;
+  font-size: 12px;
+}
+
+#chat .fa-ellipsis-v{
+  color:#fff;
+}
+
+#chatbox{
+  color:#fff;
+  margin-top: 10%;
+}
+
+.chat1{
+  background: #e0dbe1;
+  color: #a2a0a3;
+  padding-left: 7px;
+  font-size: 13px;
+}
+
+.chat2{
+  padding-left: 10px;
+  margin-left: 95px;
+  color: #a2a0a3;
+  background: #cc6d92;
+  font-size: 13px;
+  width: 65%;
+}
+
+#chat .angle{
+  margin-left: 30px;
+  font-size: 7px;
+  color:#fff;
+}
+
+#chat .angle span{
+  margin-left: 10px;
+}
+
+#add-text .name
+{
+    width:100%;
+    height:35px;
+    left: 0px;
+}
+
+#add-text i
+{
+    position:absolute;
+    left:85%;
+    top:94%;  
+    color: #cc6d92;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -100%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -100%;
+  }
+
+  .row-offcanvas-right.active {
+    right: 100%;
+  }
+  .row-offcanvas-left.active {
+    left: 100%;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .top{
+    width: 112%;
+  }
+  .search-form .form-group { 
+  	margin-left: 10%;
+  }
+
+  .fa-bell-o{	
+	 margin-left: 13%;
+	 padding-top: 5%;
+	 padding-bottom: 8%;
+  }
+
+  #activities{
+    width: 90%;
+    margin-left:9%;
+    margin-top: 5%;
+  }
+
+  #financial{
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  .circle1{
+    margin-left: 30%;
+    margin-top: -25%;
+  }
+
+  .detail{
+    margin-top: 40%;
+  }
+  #team{
+    width: 100%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+  }
+
+  .team-member{ 
+    text-align: center;
+  }
+  .team-member p { 
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  #schedule{
+    width: 100%;
+    margin-left: -.5%;
+  }
+
+  #chat{
+    width: 92.5%;
+    margin-top: 5%;
+  }
+
+  .chat1{
+    margin-top: 20px;
+  }
+
+  .chat2{
+    margin-left: 68px;
+  }
+
+  #add-text i{
+    top:96%; 
+    left:83%;
+  }
+
+}
+
